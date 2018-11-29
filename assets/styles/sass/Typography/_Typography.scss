@@ -1,4 +1,113 @@
-body {
-    background-color: black;
-    color: white;
+$base-font-size: 16px;
+$base-font-weight: 400;
+$base-line-height: 1.4;
+$base-right-left-spacing: 1em;
+$base-top-bottom-spacing: .5em;
+$primary-color: blue;
+$error: red;
+
+%margin {
+
 }
+
+%link {
+    color: $primary-color;
+    text-decoration: underline;
+    font-weight: 700;
+
+    &-no-decoration {
+        text-decoration: none;
+    }
+
+    &:visited {
+        color: darken($primary-color, 7%);
+    }
+
+    &:hover,
+    &:visited:hover {
+        color: darken($primary-color, 5%);
+        cursor: pointer;
+    }
+
+    &:hover {
+        text-decoration: underline;
+    }
+
+}
+
+.form-group {
+    label {
+        color: $primary-color !important;
+        font-size: 18px;
+    }
+
+    & .has-error {
+        input[type] {
+            border: 2px solid $error !important;
+
+            &:focus,
+            &:active {
+                border: none;
+            }
+        }
+
+        select {
+            border: 2px solid $error !important;
+            color: black;
+        }
+
+        & .help-block {
+            color: $error;
+            display: inline-block;
+            font-size: 14px;
+        }
+    }
+    & .pasword-criteria {
+        color: $primary-color !important;
+
+        & .password-criteria-satisfied {
+            color: $primary-color;
+            font-weight: bold;
+        }
+    }
+}
+
+.acro-typography {
+    font-size: $base-font-size;
+    font-weight: $base-font-weight;
+    line-height: $base-line-height;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    color: $primary-color;
+    margin: 1.1em 0;
+}
+
+h1,
+h2 {
+    line-height: 1.1
+}
+
+label {
+    font-weight: 700;
+    font-size: 18px;
+    color: $primary-color;
+}
+
+pre,
+code {
+    font-family: 'Andale Mono', AndaleMono, monospace;
+    font-size: 15px;
+    line-height: 1.2;
+}
+
