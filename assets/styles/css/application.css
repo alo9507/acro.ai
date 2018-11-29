@@ -1,0 +1,25 @@
+/* SASS Manifest */
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FFFFFA;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #199EB8;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #147f94;
+}
+
+/*# sourceMappingURL=application.css.map */
