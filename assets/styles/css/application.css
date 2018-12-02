@@ -39,7 +39,7 @@ html {
 }
 .btn:hover {
   background-color: #EAFFFF;
-  color: white;
+  color: #FF7F50;
 }
 .btn:active {
   background-color: #EAFFFF;
@@ -141,7 +141,7 @@ code {
   line-height: 1.2;
 }
 
-#joinus-btn {
+.joinus-btn {
   padding: 20px 50px;
   background-color: #FF7F50;
 }
