@@ -8,10 +8,16 @@
 .btn {
     @include rounded;
     padding: 6px 12px;
-    background-color: blue;
-    color: $off_white;
+    border: none;
+    background-color: #FF7F50;
+    color: white;
     &:hover {
-        background-color: $main-color;
-        color: blue
+        background-color: $off_white;
+        color: white;
+    }
+    &:active {
+        background-color: $off_white;
+        color: #FF7F50;
+        border: none;
     }
 }
