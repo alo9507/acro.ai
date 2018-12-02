@@ -10,62 +10,53 @@
 </head>
 <body> 
 
-    <section class="container-fluid .custom"><!------HERO------>
-        <div class="row mx-0 mb-2" style="min-height: 150vh;">
-            <div class="col-6 no-gutters">
-                <div class="code">This is code</div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#home">Acro</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#problem">Problem</a>
+                <a class="nav-item nav-link" href="#solution">Solution</a>
+                <a class="nav-item nav-link" href="#stakeholders">Stakeholders</a>
+                <a class="nav-item nav-link" href="#joinus">Join Us</a>
             </div>
-            <div class="col-6 no-gutters">
-                <button class="btn">Normal</button>
-                <h1>H1</h1>
-                <h2>H2</h2>
+        </div>
+    </nav>
+
+    <section class="container-fluid" id="home"><!------HERO------>
+        <div class="row justify-content-center">
+            <div class="col-12" id="slogan">We facilitate agreements, best practices,
+                    standards and other policy essential to realizing the potential of cloud-connected robots
+            </div>
+            <div class="col-12">
+                <button class="btn btn-primary" id="joinus-btn">Join Us</button>
             </div>
         </div>
     </section><!------HERO------>
 
     <section class="container-fluid"><!------CONTENT------>
-        <div class="row mx-0 mb-2" style="min-height: 150vh;">
-            <div class="col-6 no-gutters" style="background-color: brown">
+        <div class="row mx-0">
+            <div class="col-6">
                 <div class="code">This is code</div>
             </div>
-            <div class="col-6 no-gutters" style="background-color: green">Hello</div>
+            <div class="col-6">Hello</div>
         </div>
     </section><!------CONTENT------>
 
     <section class="container-fluid"><!------FOOTER------>
-        <div class="row mx-0 mb-2" style="min-height: 150vh;">
-            <div class="col-6 no-gutters" style="background-color: brown">
+        <div class="row mx-0">
+            <div class="col-6">
                 <div class="code">This is code</div>
             </div>
-            <div class="col-6 no-gutters" style="background-color: green">Hello</div>
+            <div class="col-6">Hello</div>
         </div>
     </section><!------FOOTER------>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script>
-        (function() {
-
-            var scotchLogo = document.querySelector('.scotch-logo');
-
-            // Detect firefox
-            if (!navigator.userAgent.match(/firefox/i)) {
-                scotchLogo.className = 'scotch-logo';
-            }
-
-            // Resume animation on mouseenter
-            scotchLogo.addEventListener('mouseenter', function () {
-                scotchLogo.classList.add('scotch-logo--active');
-            });
-
-            // Pause animation on mouseleave
-            scotchLogo.addEventListener('mouseleave', function () {
-                scotchLogo.classList.remove('scotch-logo--active');
-            });
-
-            })();
-
-    </script>
 </body>
 </html>

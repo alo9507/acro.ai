@@ -1,21 +1,11 @@
 /* SASS Manifest */
 @import url("https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Subrayada|Roboto+Slab:100,300,400,700");
-.container-fluid {
-  padding-right: 0;
-  padding-left: 0;
-  margin-right: auto;
-  margin-left: auto;
+section:nth-of-type(odd) {
+  background-color: aliceblue;
 }
 
-.row.no-gutters {
-  margin-right: 0;
-  margin-left: 0;
-}
-
-.row.no-gutters > [class^=col-],
-.row.no-gutters > [class*=" col-"] {
-  padding-right: 0;
-  padding-left: 0;
+section:nth-of-type(even) {
+  background-color: antiquewhite;
 }
 
 ::-webkit-scrollbar {
@@ -143,6 +133,14 @@ code {
 
 body {
   cursor: url(assets/images/icons/polyphonic-logo.svg), default;
+}
+
+#slogan {
+  background-color: rosybrown;
+}
+
+section {
+  min-height: 100vh;
 }
 
 /*# sourceMappingURL=application.css.map */
