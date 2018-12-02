@@ -1,2 +1,6 @@
 @import "Containers/_Container.scss";
 @import "BootstrapOverrides/_BootstrapOverrides.scss";
+
+html {
+    scroll-behavior: smooth;
+}

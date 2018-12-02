@@ -8,6 +8,10 @@ section:nth-of-type(even) {
   background-color: antiquewhite;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 ::-webkit-scrollbar {
   width: 12px;
 }
@@ -137,10 +141,6 @@ code {
   line-height: 1.2;
 }
 
-body {
-  cursor: url(assets/images/icons/polyphonic-logo.svg), default;
-}
-
 #joinus-btn {
   padding: 20px 50px;
   background-color: #FF7F50;
@@ -155,6 +155,10 @@ body {
 
 section {
   min-height: 100vh;
+}
+
+.bluebg {
+  background-color: blue;
 }
 
 .purposes {
