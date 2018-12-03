@@ -1,0 +1,176 @@
+/* SASS Manifest */
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Subrayada|Roboto+Slab:100,300,400,700");
+section:nth-of-type(odd) {
+  background-color: aliceblue;
+}
+
+section:nth-of-type(even) {
+  background-color: antiquewhite;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FFFFFA;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #199EB8;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #147f94;
+}
+
+.btn {
+  border-radius: 10px;
+  background-clip: padding-box;
+  padding: 6px 12px;
+  border: none;
+  background-color: #FF7F50;
+  color: white;
+}
+.btn:hover {
+  background-color: #EAFFFF;
+  color: #FF7F50;
+}
+.btn:active {
+  background-color: #EAFFFF;
+  color: #FF7F50;
+  border: none;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 39.705px;
+}
+
+h3 {
+  font-size: 29.41px;
+}
+
+h4 {
+  font-size: 23.53px;
+}
+
+h5 {
+  font-size: 20.59px;
+}
+
+h6 {
+  font-size: 17.645px;
+}
+
+h1 {
+  font-family: "Montserrat Subrayada", Helvetica, sans-serif;
+}
+
+.form-group label {
+  color: blue !important;
+  font-size: 18px;
+}
+.form-group .has-error input[type] {
+  border: 2px solid red !important;
+}
+.form-group .has-error input[type]:focus, .form-group .has-error input[type]:active {
+  border: none;
+}
+.form-group .has-error select {
+  border: 2px solid red !important;
+  color: black;
+}
+.form-group .has-error .help-block {
+  color: red;
+  display: inline-block;
+  font-size: 14px;
+}
+.form-group .pasword-criteria {
+  color: blue !important;
+}
+.form-group .pasword-criteria .password-criteria-satisfied {
+  color: blue;
+  font-weight: bold;
+}
+
+.acro-typography {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: blue;
+  margin: 1.1em 0;
+}
+
+h1,
+h2 {
+  line-height: 1.1;
+}
+
+label {
+  font-weight: 700;
+  font-size: 18px;
+  color: blue;
+}
+
+pre,
+code {
+  font-family: "Andale Mono", AndaleMono, monospace;
+  font-size: 15px;
+  line-height: 1.2;
+}
+
+.joinus-btn {
+  padding: 20px 50px;
+  background-color: #FF7F50;
+}
+
+#slogan {
+  background-color: #208CA1;
+  border-radius: 30px;
+  padding: 50px;
+  color: white;
+}
+
+section {
+  min-height: 100vh;
+}
+
+.bluebg {
+  background-color: blue;
+}
+
+.purposes {
+  background-color: #FF7F50;
+  color: white;
+  font-weight: 700;
+}
+
+.purpose img {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+/*# sourceMappingURL=application.css.map */

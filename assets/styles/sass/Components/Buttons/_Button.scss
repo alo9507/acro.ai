@@ -1,0 +1,23 @@
+@import "../../Core/_AcroColorPalette.scss";
+
+@mixin rounded($radius: 10px) {
+    border-radius: $radius;
+    background-clip: padding-box;
+}
+
+.btn {
+    @include rounded;
+    padding: 6px 12px;
+    border: none;
+    background-color: #FF7F50;
+    color: white;
+    &:hover {
+        background-color: $off_white;
+        color: #FF7F50;
+    }
+    &:active {
+        background-color: $off_white;
+        color: #FF7F50;
+        border: none;
+    }
+}
